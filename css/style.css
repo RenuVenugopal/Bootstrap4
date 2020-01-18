@@ -1,0 +1,83 @@
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+.alert-container{
+
+}
+.callout-container{
+height: 100vh;
+ 
+  background: url("../images/whiskey-image.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+.opaque-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    
+}
+/*jumbotron-header*/
+.jumbotron-header{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.jumbotron{
+    background-color: transparent;
+}
+.jumbotron small{
+    font-size: 65%;
+    font-style: italic;
+    color: #dbdbd3
+}
+.jumbotron .lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fbff07;
+}
+/* horizontal divider*/
+.jumbotron .block-divider{
+    width: 75px;
+    height: 5px;
+    border: 0;
+   
+}
+.block-divider--orange{
+ background-color: #d8c58c;
+}
+.block-divider--short{
+    width: 35px;
+}
+.btn--cta{
+    font-style: bold;
+    width: 180px;
+    border-radius: 23px;
+}
+.btn--red{
+    color:red;
+    background-color:#d8c58c;
+    border-color: #d8c58c; 
+}
+.btn--red:hover,.btn--red:active,.btn--red:focus,.btn--red:active:focus{
+    background-color:#e6c665;
+    border-color:#e6c665;
+}
+
+.quotes-container{
+
+}
+.features-contianer{
+
+}
